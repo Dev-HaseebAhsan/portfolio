@@ -1,12 +1,12 @@
 :root{
-  --bg1: #030705;
-  --bg2: #0A1D29;
-  --primary: #0F97EB;
-  --primary-accent1: #54BEFF;
-  --primary-accent2: #476EA9;
-  --secondary: #071b32;
-  --secondary-accent: #171D26;
-  --text-color: #dadce1;
+  --bg1: 3, 5, 7;
+  --bg2: 10, 29, 41;
+  --primary: 15, 151, 235;
+  --primary-accent1: 84, 190, 255;
+  --primary-accent2: 71, 110, 169;
+  --secondary: 7, 27, 50;
+  --secondary-accent: 23, 29, 38;
+  --text-color: 218, 220, 225;
   --speed: 500ms;
 }
 
@@ -15,13 +15,13 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color:var(--text-color);
+  color: rgb(var(--text-color));
   border-style: none;
   border-radius: 0;
 }
 
 body {
-  background-color: var(--bg1);
+  background-color: rgb(var(--bg1));
   
 }
 
@@ -93,7 +93,9 @@ header .portrait-container{
 }
 
 #projects .listed-project{
-  background-color: var(--secondary);
+  background-color: rgba(var(--secondary), 0.8);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 25px black;
   width: 100%;
   height: auto;
   border-radius: 20px;
@@ -126,7 +128,7 @@ header .portrait-container{
 #projects .listed-project .project-info .languages-used-title{
   font-size: 1.1rem;
   font-weight: 500;
-  color: var(--primary-accent1);
+  color: rgb(var(--primary-accent1));
   padding: 0 2rem;
   margin-bottom: 0.6rem;
 }

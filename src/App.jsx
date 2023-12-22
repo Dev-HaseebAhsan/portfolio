@@ -15,11 +15,11 @@ function App() {
           <div className="hero-container">
             <div className="hero">
               {/* NOTE: Change the font */}
-              <h1 style={{color:"var(--primary)"}}>
-                Haseeb Ahsan
+              <h1 >
+                Hello! I'm <span style={{color:"rgb(var(--primary))"}}>Haseeb Ahsan</span>
               </h1>
               <p className="description">
-                Hello! I am a driven student studying computer science with a passion for problem solving and aesthetic.
+                I am a driven student studying computer science with a passion for problem solving and aesthetic.
               </p>
             </div>
           </div>
@@ -33,7 +33,7 @@ function App() {
         {/* Project Info */}
         <section id="projects">
           <div className="section-format">
-            <h2>Some <span style={{color:"var(--primary)"}}>Projects</span> That I'm Proud Of:</h2>
+            <h2>Some <span style={{color:"rgb(var(--primary))"}}>Projects</span> That I'm Proud Of:</h2>
             {/* NOTE: ADD BUTTONS TO SEND USER TO PROJECTS (if project has a link of course) */}
             {/* Project 1 */}
             <div className="listed-project">
@@ -83,7 +83,7 @@ function App() {
         <section id="education">
           <div className="section-format">
             <h2>
-              A Little About my <span style={{color:"var(--primary)"}}>Education</span>:
+              A Little About my <span style={{color:"rgb(var(--primary))"}}>Education</span>:
             </h2>
             <div id="rutgers">
               <div class="rutgers-img">
