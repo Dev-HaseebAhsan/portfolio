@@ -1,2 +1,2 @@
 ### Portfolio Site
-A portfolio site built using Vite.
+A portfolio site built using Vite - React.
